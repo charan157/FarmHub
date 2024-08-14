@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FarmHub</title>
+    <!--favicon-->
+    <link rel="shortcut icon" href="./Asserts/favicon.jpg" type="image/x-icon">
+    <!--Bootsrap cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--bootstrap icon cdn-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--external css-->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <!-- navbara start -->
+    <nav class="navbar navbar-expand-sm bg-body-tertiary">
+        <div class="container">
+            <!--navbarbrand-->
+          <a class="navbar-brand text-success fw-bold" href="#">Farm <span style="color: orangered;">HuB</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!--navlinks-->
+            <ul class="navbar-nav mx-auto text-center mb-2 mb-lg-0 fs-5 ">
+            
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">AboutUs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+            <!--navlinksend-->
+            <!--login and cart icons-->
+            <ul class="navbar-nav ms-auto text-center mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link fs-5" href="./signup.html"><i class="bi bi-person"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fs-5" href=""><i class="bi bi-bag-heart"></i></a>
+                  </li>
+            </ul>
+          </div>
+        </div>
+      </nav> 
+    <!--navbar end-->
+    <!--banner section start-->
+    <section class="Banner container-fluid mb-3">
+      <div class="postion-relative">
+          <img src="./Asserts/banner.jpg" alt="" class="img-fluid" style="height: 450px; width: 100%;">
+          <button type="button" class="btn rounded-pill position-absolute top-50 start-50 translate-middle" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" style="background-color: orangered; width: 100px; height: 50px;">Contactus</button>
+      </div>
+   </section>
+    <!--banner section end-->
+
+    <!-- ContactUs Start -->
+<section class="contactus container my-3">
+  <!-- contactus- header start -->
+       <div class="contact-header text-center">
+           <h3 class="text-success display-5 fw-bold">Contact<span style="color: rgb(58, 93, 58);">Us</span></h3>
+           <p>feel free to contact us...😊</p>
+       </div>
+  <!-- contactus- header end -->
+
+  <!-- contact-form start -->
+   <div class="row border border-success p-3 rounded-3 shadow">
+    <!-- 1st column -->
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+      <img src="./Asserts/favicon.jpg" alt="" class="img-fluid">
+    </div>
+    <!-- 2nd column -->
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6 ">
+      <!-- form start -->
+      <form class="row g-3">
+        <!-- 1st row name & email -->
+        <div class="col-md-6">
+          <label for="inputname" class="form-label">First Name</label>
+          <input type="text" class="form-control" id="inputname" name="fname">
+        </div>
+        <div class="col-md-6">
+          <label for="inputname" class="form-label">Last Name</label>
+          <input type="text" class="form-control" id="inputname" name="fname">
+        </div>
+        <div class="col-md-6">
+          <label for="inputemail" class="form-label">Email ID</label>
+          <input type="tel" class="form-control" id="inputnumber" name="fmobile">
+        </div>
+         <!-- 2nd row email -->
+         <div class="col-12">
+          <label for="inputnumber" class="form-label">Mobile Number</label>
+          <input type="email" class="form-control" id="inputemail" name="femail">
+        </div>
+        <div class="col-12">
+          <label for="inputlocation" class="form-label">Location</label>
+          <input type="email" class="form-control" id="inputemail" name="femail">
+        </div>
+        <!-- textarea start -->
+         <div class="col-12">
+          <label for="inputemessage" class="form-label">Message</label>
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+         </div>
+        <!-- textarea end -->
+        <div class="col-12">
+          <button type="submit" class="btn btn-success">Contactus</button>
+        </div>
+      </form>
+      <!-- form end -->
+    </div>
+   </div>
+  <!-- contact-form end -->
+
+</section>
+<!-- Contact Us end -->
+
+
+<!--subcribe to newsletter start-->
+<section class="container-fluid text-center text-ligth rounded-pill p-5 my-5 bg-dark">
+  <p class="text-center"><span class="text-success">Subcribe</span>newsletter</p>
+  <div class="input-group mb-3 w-50 mx-auto">
+    <input type="text" class="form-control rounded-start-pill" placeholder="subcribe to newsletter">
+    <span class="btn btn-success rounded-end-pill fw-bold" id="basic-addon2"> subscribe</span>
+  </div>
+ </section>
+ <!--subcribe to newsletter end-->
+
+
+
+   <!--footer section start-->
+   <footer class="footer-section container-fluid p-4 mt-5 bg-dark text-light">
+      <!--row start-->
+      <div class="row">
+        <div class="col-12 col-sm12 col-md-3 col-lg-3 text-center">
+          <h3 class="text-success fw-bolder">Farmer<span style="color: #5c9977;font-weight: bolder;">Gate</span></h3>
+          <p><i class="bi bi-alarm-fill"></i> Timings:Open 24/7</p>
+          <p><i class="bi bi-geo-alt"></i> kbhp metro</p>
+          <p><i class="bi bi-phone-fill"></i> mobile number</p>
+        </div>
+        <div class="col-12 col-sm12 col-md-3 col-lg-3 text-center">
+          <h3 class="fw-bold">Services</h3>
+          <p>Organic Products</p>
+          <p>Agricultural products</p>
+          <p>Seed Products</p>
+        </div>
+        <div class="col-12 col-sm12 col-md-3 col-lg-3 text-center">
+          <h3 class="fw-bold">Links</h3>
+          <p>About Us</p>
+          <p>Terms And Conditions</p>
+          <p>Privacy Policy</p>
+          <p>Contact Us</p>
+        </div>
+        <div class="col-12 col-sm12 col-md-3 col-lg-3 text-center">
+          <h3 class="fw-bold">Connect With Us</h3>
+          <p class="">
+            <i class="bi bi-instagram fs-2"></i>&nbsp; 
+            <i class="bi bi-twitter-x fs-2"></i>&nbsp;
+            <i class="bi bi-facebook fs-2"></i>&nbsp;
+            <i class="bi bi-telegram fs-2"></i>&nbsp;
+          </p>
+        </div>
+
+      </div>
+      <!--row end-->
+
+      <!--2nd row starts-->
+      <div class="row border-top">
+        <p class="fs-5 text-center">&copy; Copywrite By FarmerGate</p>
+
+      </div>
+      <!--2nd row ends-->
+    
+    </footer>
+    <!--footer section ends-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--multistep process start-->
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Farm<span style="color: orangered;">HUB</span></h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+           <img src="./Asserts/Blue Modern Contact Us Instagram Post.png" alt="" class="img-fluid" style="height: 350px; width: 100%;">
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Next</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Farm<span style="color: orangered;">HUB</span></h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d30444.148817913498!2d78.40198585!3d17.4827404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1721050361179!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="img-fluid"></iframe>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"> Contactus</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--multistep process end -->
+
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- bootstrap cdn script js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!--extrenal js-->
+    <script src="script.js"></script>
+  </body>
+</html>

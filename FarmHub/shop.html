@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FarmHub</title>
+    <!--favicon-->
+    <link rel="shortcut icon" href="./Asserts/favicon.jpg" type="image/x-icon">
+    <!--Bootsrap cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--bootstrap icon cdn-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--external css-->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <!-- navbara start -->
+    <nav class="navbar navbar-expand-sm bg-body-tertiary">
+        <div class="container">
+            <!--navbarbrand-->
+          <a class="navbar-brand text-success fw-bold" href="#">Farm <span style="color: orangered;">HuB</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!--navlinks-->
+            <ul class="navbar-nav mx-auto text-center mb-2 mb-lg-0 fs-5 ">
+            
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">AboutUs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+            <!--navlinksend-->
+            <!--login and cart icons-->
+            <ul class="navbar-nav mx-auto text-center mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link fs-5" href="./signup.html"><i class="bi bi-person"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fs-5" href=""><i class="bi bi-bag-heart"></i></a>
+                  </li>
+            </ul>
+          </div>
+        </div>
+      </nav> 
+    <!--navbar end-->
+    <!--slider Carousel-start-->
+    <section class="slider-section container-fluid">
+      <!--slider start-->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators img-fluid" >
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Asserts/slide (1).png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Asserts/slide (2).png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Asserts/slide (3).png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--slider end-->
+
+    </section>
+     <!--slider Carousel-end-->
+
+    <!--categories end-->
+      </section>
+    <div class="container my-5">
+      <div class="row gy-5">
+        <h2 class="fw-bolder"  data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">Vegetables</h2>
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3"  data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">
+          <div class="card">
+            <img src="./Asserts/vegetable (1).jpeg" class="card-img-top img-fluid" alt="" style="height: 200px;">
+            <div class="card-body fs-5 text-center">
+              <p class="h4 fw">Tomato</p>
+              <p class="card-text">₹25/kg</p>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-success mb-3" type="button">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3"  data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">
+          <div class="card">
+            <img src="./Asserts/vegetable (2).jpeg" class="card-img-top img-fluid" alt="" style="height: 200px;">
+            <div class="card-body fs-5 text-center">
+              <p class="h4 fw">green capsicum</p>
+              <p class="card-text">₹40/kg</p>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-success mb-3" type="button">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3"  data-aos="fade-left" data-aos-easing="linear" data-aos-duration="500">
+          <div class="card">
+            <img src="./Asserts/vegetable (3).jpeg" class="card-img-top img-fluid" alt="" style="height: 200px;">
+            <div class="card-body fs-5 text-center">
+              <p class="h4 fw">potato</p>
+              <p class="card-text">₹30/kg</p>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-success mb-3" type="button">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3"  data-aos="fade-left" data-aos-easing="linear" data-aos-duration="500">
+          <div class="card">
+            <img src="./Asserts/vegetable (4).jpeg" class="card-img-top img-fluid" alt="" style="height: 200px;">
+            <div class="card-body fs-5 text-center">
+              <p class="h4 fw">Onion</p>
+              <p class="card-text">₹20/kg</p>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-success mb-3" type="button">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  
+    <div class="container my-5">
+      <div class="row gy-5">
+        <h2 class="fw-bolder"  data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">Fruits</h2>
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">
+          <div class="card">
+            <img src="./Asserts/fruit (3).jpeg" class="card-img-top img-fluid" alt="" style="height: 200px;">
+            <div class="card-body fs-5 text-center">
+              <p class="h4 fw">Apple</p>
+              <p class="card-text">₹250/kg</p>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-success mb-3" type="button">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3"  data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">
+          <div class="card">
+            <img src="./Asserts/fruit (2).jpeg" class="card-img-top img-fluid" alt="" style="height: 200px;">
+            <div class="card-body fs-5 text-center">
+              <p class="h4 fw">Banana</p>
+              <p class="card-text">₹50/Dozen</p>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-success mb-3" type="button">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3"  data-aos="fade-left" data-aos-easing="linear" data-aos-duration="500">
+          <div class="card">
+            <img src="./Asserts/fruit (1).jpeg" class="card-img-top img-fluid" alt="" style="height: 200px;">
+            <div class="card-body fs-5 text-center">
+              <p class="h4 fw">Mango</p>
+              <p class="card-text">₹150/kg</p>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-success mb-3" type="button">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3"  data-aos="fade-left" data-aos-easing="linear" data-aos-duration="500">
+          <div class="card">
+            <img src="./Asserts/fruit (4).jpeg" class="card-img-top img-fluid" alt="" style="height: 200px;">
+            <div class="card-body fs-5 text-center">
+              <p class="h4 fw">Watermelon</p>
+              <p class="card-text">₹70/kg</p>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-success mb-3" type="button">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container my-5">
+      <div class="row gy-5">
+        <h2 class="fw-bolder"  data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">NUTS</h2>
+        <div class="col-12 col-sm-12 col-md-2 col-lg-3"  data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">
+          <div class="card">
+            <img src="./Asserts/nuts (1).jpeg" class="card-img-top img-fluid" alt="" style="height: 200px;">
+            <div class="card-body fs-5 text-center">
+              <p class="h4 fw">Cashew</p>
+              <p class="card-text">₹250/100gms</p>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-success mb-3" type="button">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3"  data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">
+          <div class="card">
+            <img src="./Asserts/nuts (2).jpeg" class="card-img-top img-fluid" alt="" style="height: 200px;">
+            <div class="card-body fs-5 text-center">
+              <p class="h4 fw"> Red Cashew Nut</p>
+              <p class="card-text">₹100/100gms</p>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-success mb-3" type="button">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3"  data-aos="fade-left" data-aos-easing="linear" data-aos-duration="500">
+          <div class="card">
+            <img src="./Asserts/nuts (3).jpeg" class="card-img-top img-fluid" alt="" style="height: 200px;">
+            <div class="card-body fs-5 text-center">
+              <p class="h4 fw">dry fruit and nuts</p>
+              <p class="card-text">₹200/100gms</p>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-success mb-3" type="button">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3"  data-aos="fade-left" data-aos-easing="linear" data-aos-duration="500">
+          <div class="card">
+            <img src="./Asserts/nuts (4).jpeg" class="card-img-top img-fluid" alt="" style="height: 200px;">
+            <div class="card-body fs-5 text-center">
+              <p class="h4 fw">peanuts</p>
+              <p class="card-text">₹90/100gms</p>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-success mb-3" type="button">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+
+     <div class="container my-5">
+    <div class="container my-5">
+      <div class="row gy-5">
+        <h2 class="fw-bolder"  data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">Leafy vegetables</h2>
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">
+          <div class="card">
+            <img src="./Asserts/leafy (1).jpeg" class="card-img-top img-fluid" alt="" style="height: 200px;">
+            <div class="card-body fs-5 text-center">
+              <p class="h4 fw"> Lettuce</p>
+              <p class="card-text">₹20/100gms</p>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-success mb-3" type="button">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3"  data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">
+          <div class="card">
+            <img src="./Asserts/leafy (2).jpeg" class="card-img-top img-fluid" alt="" style="height: 200px;">
+            <div class="card-body fs-5 text-center">
+              <p class="h4 fw">Carroct</p>
+              <p class="card-text">₹50/kg</p>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-success mb-3" type="button">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3"  data-aos="fade-left" data-aos-easing="linear" data-aos-duration="500">
+          <div class="card">
+            <img src="./Asserts/leafy (3).jpeg" class="card-img-top img-fluid" alt="" style="height: 200px;">
+            <div class="card-body fs-5 text-center">
+              <p class="h4 fw"> cabbage </p>
+              <p class="card-text">₹60/kg</p>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-success mb-3" type="button">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3"  data-aos="fade-left" data-aos-easing="linear" data-aos-duration="500">
+          <div class="card">
+            <img src="./Asserts/leafy (4).jpeg" class="card-img-top img-fluid" alt="" style="height: 200px;">
+            <div class="card-body fs-5 text-center">
+              <p class="h4 fw"> cabbage </p>
+              <p class="card-text">₹70/kg</p>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-success mb-3" type="button">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-5">
+      <div class="row gy-5">
+        <h2 class="fw-bolder"  data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">Plant Based Miks</h2>
+        <div class="col-12 col-sm-12 col-md-2 col-lg-3"  data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">
+          <div class="card">
+            <img src="./Asserts/milk (1).jpeg" class="card-img-top img-fluid" alt="" style="height: 200px;">
+            <div class="card-body fs-5 text-center">
+              <p class="h4 fw">soy milk </p>
+              <p class="card-text">₹150</p>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-success mb-3" type="button">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3"  data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">
+          <div class="card">
+            <img src="./Asserts/milk (2).jpeg" class="card-img-top img-fluid" alt="" style="height: 200px;">
+            <div class="card-body fs-5 text-center">
+              <p class="h4 fw"> hemp milk</p>
+              <p class="card-text">₹80</p>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-success mb-3" type="button">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3"  data-aos="fade-left" data-aos-easing="linear" data-aos-duration="500">
+          <div class="card">
+            <img src="./Asserts/milk (3).jpeg" class="card-img-top img-fluid" alt="" style="height: 200px;">
+            <div class="card-body fs-5 text-center">
+              <p class="h4 fw"> DIY Rice Milk</p>
+              <p class="card-text">₹200</p>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-success mb-3" type="button">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3"  data-aos="fade-left" data-aos-easing="linear" data-aos-duration="500">
+          <div class="card">
+            <img src="./Asserts/milk (4).jpeg" class="card-img-top img-fluid" alt="" style="height: 200px;">
+            <div class="card-body fs-5 text-center">
+              <p class="h4 fw"> coconut and oat milk</p>
+              <p class="card-text">₹90</p>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-success mb-3" type="button">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  
+     <!--subcribe to newsletter start-->
+ <section class="container-fluid text-center text-ligth rounded-pill p-5 my-5 bg-dark">
+  <p class="text-center"><span class="text-success">Subcribe</span>newsletter</p>
+  <div class="input-group mb-3 w-50 mx-auto">
+    <input type="text" class="form-control rounded-start-pill" placeholder="subcribe to newsletter">
+    <span class="btn btn-success rounded-end-pill fw-bold" id="basic-addon2"> subscribe</span>
+  </div>
+ </section>
+ <!--subcribe to newsletter end-->
+
+  
+    <!--footer section start-->
+    <footer class="footer-section container-fluid p-4 mt-5 bg-dark text-light">
+      <!--row start-->
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3 text-center">
+          <h3 class="text-success fw-bolder">Farmer<span style="color: #5c9977;font-weight: bolder;">Gate</span></h3>
+          <p><i class="bi bi-alarm-fill"></i> Timings:Open 24/7</p>
+          <p><i class="bi bi-geo-alt"></i> kbhp metro</p>
+          <p><i class="bi bi-phone-fill"></i> mobile number</p>
+        </div>
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3 text-center">
+          <h3 class="fw-bold">Services</h3>
+          <p>Organic Products</p>
+          <p>Agricultural products</p>
+          <p>Seed Products</p>
+        </div>
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3 text-center">
+          <h3 class="fw-bold">Links</h3>
+          <p>About Us</p>
+          <p>Terms And Conditions</p>
+          <p>Privacy Policy</p>
+          <p>Contact Us</p>
+        </div>
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3 text-center">
+          <h3 class="fw-bold">Connect With Us</h3>
+          <p class="">
+            <i class="bi bi-instagram fs-2"></i>&nbsp; 
+            <i class="bi bi-twitter-x fs-2"></i>&nbsp;
+            <i class="bi bi-facebook fs-2"></i>&nbsp;
+            <i class="bi bi-telegram fs-2"></i>&nbsp;
+          </p>
+        </div>
+  
+      </div>
+      <!--row end-->
+  
+      <!--2nd row starts-->
+      <div class="row border-top">
+        <p class="fs-5 text-center">&copy; Copywrite By FarmerGate</p>
+  
+      </div>
+      <!--2nd row ends-->
+    
+    </footer>
+    <!--footer section ends-->
+  
+
+
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- bootstrap cdn script js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!--extrenal js-->
+    <script src="script.js"></script>
+  </body>
+</html>

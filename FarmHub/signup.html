@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FarmHub</title>
+    <!--favicon-->
+    <link rel="shortcut icon" href="./Asserts/favicon.jpg" type="image/x-icon">
+    <!--Bootsrap cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--bootstrap icon cdn-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--aos animation cdn-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--external css-->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <!-- navbara start -->
+    <nav class="navbar navbar-expand-md bg-body-tertiary ">
+      <div class="container-fluid">
+          <!--navbarbrand-->
+        <a class="navbar-brand text-success fw-bold" href="#">Farm <span style="color: orangered;">HuB</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!--navlinks-->
+          <ul class="navbar-nav mx-auto text-center mb-2 mb-lg-0 fs-5">
+          
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">AboutUs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+          <!--navlinksend-->
+          <!--login and cart icons-->
+          <ul class="navbar-nav ms-auto text-center mb-2 mb-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link fs-5" href="./signup.html"><i class="bi bi-person"></i></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link fs-5" href=""><i class="bi bi-bag-heart"></i></a>
+                </li>
+          </ul>
+        </div>
+      </div>
+    </nav> 
+    <!--navbar end-->
+
+    <!-- ContactUs Start -->
+<section class="contactus container my-5">
+    <!-- contact-form start -->
+     <div class="row border border-success p-3 rounded-3 shadow justify-content-center">
+      <!-- 1st column -->
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 ">
+        <!-- form start -->
+        <form class="row g-3">
+          <!-- 1st row name & email -->
+           <h1 class="fw-bolder text-success">Sign up</h1>
+          <div class="col-md-12">
+            <label for="inputname" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="inputname" name="fname">
+          </div>
+          <div class="col-md-12">
+            <label for="inputname" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="inputname" name="fname">
+          </div>
+          <div class="col-md-12">
+            <label for="inputemail" class="form-label">Email ID</label>
+            <input type="tel" class="form-control" id="inputnumber" name="fmobile">
+          </div>
+          <div class="col-md-12">
+            <label for="inputemail" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputnumber" name="fmobile">
+          </div>
+           <!-- 2nd row email -->
+           <div class="col-12">
+            <label for="inputnumber" class="form-label">Mobile Number</label>
+            <input type="email" class="form-control" id="inputemail" name="femail">
+          </div>
+          <div class="col-12">
+            <label for="inputlocation" class="form-label">Location</label>
+            <input type="email" class="form-control" id="inputemail" name="femail">
+          </div>
+          <!-- textarea start -->
+           <div class="col-12">
+            <label for="inputemessage" class="form-label">Message</label>
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+           </div>
+          <!-- textarea end -->
+          <div class="col-12">
+            <button type="submit" class="btn btn-success">Sign Up</button>
+          </div>
+        </form>
+        <!-- form end -->
+      </div>
+     </div>
+    <!-- contact-form end -->
+  
+  </section>
+  <!-- Contact Us end -->
+
+  <!--subcribe to newsletter start-->
+ <section class="container-fluid text-center text-ligth rounded-pill p-5 my-5 bg-dark">
+    <p class="text-center"><span class="text-success">Subcribe</span>newsletter</p>
+    <div class="input-group mb-3 w-50 mx-auto">
+      <input type="text" class="form-control rounded-start-pill" placeholder="subcribe to newsletter">
+      <span class="btn btn-success rounded-end-pill fw-bold" id="basic-addon2"> subscribe</span>
+    </div>
+   </section>
+   <!--subcribe to newsletter end-->
+  
+   <!--footer scetion start-->
+ <footer class="footer-section container-fluid p-4 mt-5 bg-dark text-light">
+    <!--row start-->
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+        <h3>Farm<span>Hub</span></h3>
+        <p>Timings <i class="bi bi-alarm-fill"></i></p>
+        <p>Location <i class="bi bi-geo-alt"></i></p>
+        <p>Mobile number <i class="bi bi-phone"></i></p>
+      </div>
+  
+      <div class="col-12 col-sm-12 col-md-3 col-lg-3 text-center">
+        <h3>Serivces</h3>
+        <p>Organic Products</p>
+        <p>Agriculture Products</p>
+        <p>Seed Products</p>
+      </div>
+      <div class="col-12 col-sm-12 col-md-3 col-lg-3 text-center">
+        <h3>Links</h3>
+        <p>About Us</p>
+        <p>Terms And Conditions</p>
+        <p>Privacy policy</p>
+        <p>Contact Us</p>
+      </div>
+      <div class="col-12 col-sm-12 col-md-3 col-lg-3 text-center">
+        <h3>Contact Us</h3>
+       <p class="fs-5">
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-twitter-x"></i>
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-telegram"></i>
+       </p>
+      </div>
+    </div>
+    <!--row end-->
+    <!--2nd row start-->
+    <div class="row border-top">
+      <p class="fs-5 text-center">&copy;copywrite By Farmweb</p>
+    </div>
+   </footer>
+   <!--footer section end-->
+  
+
+
